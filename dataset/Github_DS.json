@@ -1,0 +1,144 @@
+{
+	"name": "Github_DS",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "NYC_Jobs.csv",
+				"fileSystem": "github"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "Job ID",
+				"type": "String"
+			},
+			{
+				"name": "Agency",
+				"type": "String"
+			},
+			{
+				"name": "Posting Type",
+				"type": "String"
+			},
+			{
+				"name": "# Of Positions",
+				"type": "String"
+			},
+			{
+				"name": "Business Title",
+				"type": "String"
+			},
+			{
+				"name": "Civil Service Title",
+				"type": "String"
+			},
+			{
+				"name": "Title Classification",
+				"type": "String"
+			},
+			{
+				"name": "Title Code No",
+				"type": "String"
+			},
+			{
+				"name": "Level",
+				"type": "String"
+			},
+			{
+				"name": "Job Category",
+				"type": "String"
+			},
+			{
+				"name": "Full-Time/Part-Time indicator",
+				"type": "String"
+			},
+			{
+				"name": "Career Level",
+				"type": "String"
+			},
+			{
+				"name": "Salary Range From",
+				"type": "String"
+			},
+			{
+				"name": "Salary Range To",
+				"type": "String"
+			},
+			{
+				"name": "Salary Frequency",
+				"type": "String"
+			},
+			{
+				"name": "Work Location",
+				"type": "String"
+			},
+			{
+				"name": "Division/Work Unit",
+				"type": "String"
+			},
+			{
+				"name": "Job Description",
+				"type": "String"
+			},
+			{
+				"name": "Minimum Qual Requirements",
+				"type": "String"
+			},
+			{
+				"name": "Preferred Skills",
+				"type": "String"
+			},
+			{
+				"name": "Additional Information",
+				"type": "String"
+			},
+			{
+				"name": "To Apply",
+				"type": "String"
+			},
+			{
+				"name": "Hours/Shift",
+				"type": "String"
+			},
+			{
+				"name": "Work Location 1",
+				"type": "String"
+			},
+			{
+				"name": "Recruitment Contact",
+				"type": "String"
+			},
+			{
+				"name": "Residency Requirement",
+				"type": "String"
+			},
+			{
+				"name": "Posting Date",
+				"type": "String"
+			},
+			{
+				"name": "Post Until",
+				"type": "String"
+			},
+			{
+				"name": "Posting Updated",
+				"type": "String"
+			},
+			{
+				"name": "Process Date",
+				"type": "String"
+			}
+		]
+	}
+}
