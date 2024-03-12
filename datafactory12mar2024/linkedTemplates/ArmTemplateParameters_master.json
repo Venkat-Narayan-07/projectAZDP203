@@ -1,0 +1,36 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "datafactory12mar2024"
+		},
+		"GitHub1_credential": {
+			"value": ""
+		},
+		"HttpServer1_password": {
+			"value": ""
+		},
+		"RawDataStorage_accountKey": {
+			"value": ""
+		},
+		"GitHub1_properties_typeProperties_username": {
+			"value": "Venkat-Narayan-07"
+		},
+		"HttpServer1_properties_typeProperties_url": {
+			"value": "https://github.com/Venkat-Narayan-07/projectAZDP203.git"
+		},
+		"HttpServer1_properties_typeProperties_userName": {
+			"value": "Venkat-Narayan-07"
+		},
+		"RawDataStorage_properties_typeProperties_url": {
+			"value": "https://adlsgen2storage1.dfs.core.windows.net/"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
